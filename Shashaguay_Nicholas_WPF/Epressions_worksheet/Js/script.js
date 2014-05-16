@@ -25,3 +25,9 @@ var students = 20;
 // Number of pizzas ordered
 
 var pizzas = 6;
+
+// Number of slices in total. Take 8 and multiply by 6 to get total number of slices. Then divid by number of students to get the total result.
+
+var total = (slices * pizzas)/ students;
+console.log(total);
+	
