@@ -21,3 +21,7 @@ var slices = 8;
 // Number of people at the party
 
 var students = 20;
+
+// Number of pizzas ordered
+
+var pizzas = 6;
