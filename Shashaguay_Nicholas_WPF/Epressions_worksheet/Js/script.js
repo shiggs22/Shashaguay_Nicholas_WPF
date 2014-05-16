@@ -73,8 +73,12 @@ console.log(average); // The average money spent in 5 weeks is $59.82 arounded
 // Discounts
 // Orginal price
 
-var orginalPrice = 1,256.00;
+var orginalPrice = 1256.00;
 
 // Discount percentage 
 
 var discountPercent = 20; // 20%
+
+// Description of item
+
+console.log("This sword is 18 inch long, stainless steel, very sharp!");
