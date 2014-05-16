@@ -86,3 +86,11 @@ console.log("This sword is 18 inch long, stainless steel, very sharp!");
 // Sales tax percent
 
 var salesTax = .06;
+
+// Price of item with tax
+
+var withTax = orginalPrice * salesTax + orginalPrice; // $133.36
+
+// Price of item without tax
+
+var withoutTax = 1256.00;
