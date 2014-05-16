@@ -87,9 +87,9 @@ console.log("This sword is 18 inch long, stainless steel, very sharp!");
 
 var salesTax = .06;
 
-// Price of item with tax
+// Price of item with tax (orginalPrice * salesTax + orginalPrice)
 
-var withTax = orginalPrice * salesTax + orginalPrice; // $133.36
+var withTax = 1331.36
 
 // Price of item without tax
 
@@ -98,4 +98,9 @@ var withoutTax = 1256.00;
 // Price of item without tax with 20% discount
 
 var diswithoutTax = withoutTax - discountPercent + withoutTax;
-console.log(diswithoutTax);
+console.log(diswithoutTax);// $2511.8
+
+// Price of item with tax with 20% discount
+
+var diswithTax = withTax - discountPercent + withTax;
+console.log(diswithTax); // $2662.52 rounded
