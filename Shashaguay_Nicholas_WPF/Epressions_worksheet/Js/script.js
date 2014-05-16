@@ -31,3 +31,9 @@ var pizzas = 6;
 var total = (slices * pizzas)/ students;
 console.log(total);
 	
+	
+// Slices of Pie part II
+
+// Slices of pizza each students gets (assuming whole number, which will be 2)
+
+var slicesperStudent = 2;
