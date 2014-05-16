@@ -1,4 +1,4 @@
-// Shahsaguay, Nicholas May 15th, 2014 Dog Years assigment
+// Shahsaguay, Nicholas May 15th, 2014 Dog Years assignment
 
 // Sparky's age is 7 in dog years
 
