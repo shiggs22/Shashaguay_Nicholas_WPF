@@ -45,3 +45,7 @@ var students = 20;
 // Number of slices per pizza
 
 var slices = 8;
+
+// Number of pizzas ordered
+
+var pizzas = 6;
