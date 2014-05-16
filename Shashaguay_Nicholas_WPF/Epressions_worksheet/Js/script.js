@@ -58,3 +58,8 @@ console.log(leftovers); // The number of slices leftover for the dog to have is 
 // Weeks of weekly spending on groceries
 
 var weeklySpending = [56.00, 78.23, 45.30, 55.23, 64.32];
+
+// Total amount of money spent for weeks 1-5
+
+var total = weeklySpending[0] + weeklySpending[1] + weeklySpending[2] + weeklySpending[3] + weeklySpending[4];
+console.log(total);
