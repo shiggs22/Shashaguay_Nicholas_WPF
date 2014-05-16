@@ -1,4 +1,5 @@
-// Shahsaguay, Nicholas May 15th, 2014 Dog Years assignment
+// Shahsaguay, Nicholas May 15th, 2014 
+// Dog Years assignment
 
 // Sparky's age is 7 in dog years
 
@@ -9,3 +10,10 @@ var humanAge = 7;
 
 var actualAge = dogAge * humanAge;
 console.log(actualAge);
+
+
+// Slice of Pie part 1
+
+// Number of of slices per pizza
+
+var slices = 8;
