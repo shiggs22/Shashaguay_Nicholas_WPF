@@ -37,3 +37,7 @@ console.log(total);
 // Slices of pizza each students gets (assuming whole number, which will be 2)
 
 var slicesperStudent = 2;
+
+// Number of students
+
+var students = 20;
