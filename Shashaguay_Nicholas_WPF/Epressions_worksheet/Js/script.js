@@ -55,6 +55,7 @@ var pizzas = 6;
 var leftovers = (slices * pizzas) - students * slicesperStudent;
 console.log(leftovers); // The number of slices leftover for the dog to have is 8
 
+// Average shopping bill
 // Weeks of weekly spending on groceries
 
 var weeklySpending = [56.00, 78.23, 45.30, 55.23, 64.32];
@@ -68,3 +69,8 @@ console.log(total); // Total amount equals $299.08
 var numWeeks = 5;
 var average = total / numWeeks;
 console.log(average); // The average money spent in 5 weeks is $59.82 arounded
+
+// Discounts
+// Orginal price
+
+var orginalPrice = 1,256.00
