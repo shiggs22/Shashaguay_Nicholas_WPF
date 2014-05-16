@@ -62,4 +62,9 @@ var weeklySpending = [56.00, 78.23, 45.30, 55.23, 64.32];
 // Total amount of money spent for weeks 1-5
 
 var total = weeklySpending[0] + weeklySpending[1] + weeklySpending[2] + weeklySpending[3] + weeklySpending[4];
-console.log(total); // Total amount equals 299.08
+console.log(total); // Total amount equals $299.08
+
+// Total number of weeks
+var numWeeks = 5;
+var average = total / numWeeks;
+console.log(average); // The average money spent in 5 weeks is $59.82 arounded
