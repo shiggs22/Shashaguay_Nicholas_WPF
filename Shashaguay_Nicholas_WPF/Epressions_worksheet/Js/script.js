@@ -49,3 +49,8 @@ var slices = 8;
 // Number of pizzas ordered
 
 var pizzas = 6;
+
+// Leftovers for Sparky
+
+var leftovers = (slices * pizzas) - students * slicesperStudent;
+console.log(leftovers); // The number of slices leftover for the dog to have is 8
