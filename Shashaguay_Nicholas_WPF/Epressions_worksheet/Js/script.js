@@ -82,3 +82,7 @@ var discountPercent = 20; // 20%
 // Description of item
 
 console.log("This sword is 18 inch long, stainless steel, very sharp!");
+
+// Sales tax percent
+
+var salesTax = .06;
