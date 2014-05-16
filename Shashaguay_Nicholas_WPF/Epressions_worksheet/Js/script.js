@@ -17,3 +17,7 @@ console.log(actualAge);
 // Number of of slices per pizza
 
 var slices = 8;
+
+// Number of people at the party
+
+var students = 20;
