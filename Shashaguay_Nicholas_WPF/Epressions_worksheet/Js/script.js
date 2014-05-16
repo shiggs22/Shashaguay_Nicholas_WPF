@@ -77,7 +77,7 @@ var orginalPrice = 1256.00;
 
 // Discount percentage 
 
-var discountPercent = 20; // 20%
+var discountPercent = .2; // 20%
 
 // Description of item
 
@@ -94,3 +94,8 @@ var withTax = orginalPrice * salesTax + orginalPrice; // $133.36
 // Price of item without tax
 
 var withoutTax = 1256.00;
+
+// Price of item without tax with 20% discount
+
+var diswithoutTax = withoutTax - discountPercent + withoutTax;
+console.log(diswithoutTax);
