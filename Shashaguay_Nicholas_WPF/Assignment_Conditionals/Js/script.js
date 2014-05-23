@@ -4,11 +4,18 @@
 
 // This will determine if its a good time to go the gym or not to go
 
-var benchesInGym = 3;
-var peopleUseingBenches = 2;
+var benchesInGym = 4;
+var peopleUseingBenches = 5;
 var friendsUsingBench = 1;
 
-// If more than 5 people in the gym, "Don't bother."
+if(peopleUseingBenches < benchesInGym){
+	//If people using the benches is greater than available benches "Wait until another bench is available"
+	console.log("Workout chest!");
+}else if(friendsUsingBench < peopleUseingBenches){
+	console.log("Work in with him.");
+}else{
+	console.log("Find another workout to do.");
+}
 
 
 
