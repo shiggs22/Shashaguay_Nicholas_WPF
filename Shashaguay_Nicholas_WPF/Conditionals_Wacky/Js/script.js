@@ -12,3 +12,11 @@ var image;
 
 image = (mirriorSize > 5) ? "Take a gym selfie!" : "Don't bother."
 console.log(image);
+
+//If more guys are in the gym veruses women in the gym, Please, dont take a gym selfie.
+var menInGym = 8;
+var girlsInGym = 3;
+var image;
+
+image = (girlsInGym > menInGym) ? "Take a gym selfie!" : "Don't Bother."
+console.log(image);
