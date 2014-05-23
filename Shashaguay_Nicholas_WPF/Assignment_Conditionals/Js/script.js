@@ -15,7 +15,7 @@ if(peopleUseingBenches < benchesInGym){
 	//If all benches are taken but you have a friend on a bench, "work in with him."
 	console.log("Work in with him.");
 }else{
-	//For anyother reason you cannot workout on a bench, just go find another workout to do in the meantime.
+	//For any other reason you cannot workout on a bench, just go find another workout to do in the meantime.
 	console.log("Find another workout to do.");
 }
 
