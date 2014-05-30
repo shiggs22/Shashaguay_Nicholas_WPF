@@ -23,3 +23,9 @@ while(isNaN(pageAmount) || pageAmount === ""){
 var pageDesign = prompt("How much money do you charge for designing a page for a website?:");
 //making a console.log to make sure the number us being recorded
 console.log(pageDesign); 
+
+while(isNaN(pageDesign) || pageDesign === ""){
+	
+	//re-prompting the user if they didn't use a number or just left the prompt blank
+	pageDesign = prompt("Please put in a NUMBER and DO NOT leave blank:");
+}
