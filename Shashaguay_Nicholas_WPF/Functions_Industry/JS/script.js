@@ -29,3 +29,15 @@ while(isNaN(pageDesign) || pageDesign === ""){
 	//re-prompting the user if they didn't use a number or just left the prompt blank
 	pageDesign = prompt("Please put in a NUMBER and DO NOT leave blank:");
 }
+
+//Creating a prompt for how much it will cost to program a site with JavaScript
+
+var javaScript = prompt("How much do you charge to program a site with Java Script?:");
+//Making a console.log to make sure the number is being recorded
+console.log(javaScript);
+
+while(isNaN(javaScript) || javaScript === ""){
+	
+	//re-prompting the user if they didn't use a number or just left the prompt blank
+	javaScript = prompt("Please put in a NUMBER and DO NOT leave blank:");
+}
