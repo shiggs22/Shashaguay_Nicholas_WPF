@@ -48,4 +48,10 @@ else if(menInGym > womenInGym){
 	console.log("Will you just be take it easy if you're in there by yourself?");
 }
 
+/*var answer = prompt("Please fill in your answer to the question with an Yes or No:");
+
+while(answer != "yes" && answer != "no" && answer != "y" && answer != "n" && != "Yes" && answer != "No" && answer != "Y" && answer != "N"){
+
+	answer = prompt("Please make sure it's a yes or a no nothing else!");
+}*/
 
