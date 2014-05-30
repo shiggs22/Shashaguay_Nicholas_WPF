@@ -41,6 +41,16 @@ while(isNaN(amountOfGame) || amountOfGame === ""){
 	amountOfGame = prompt("Please put in a NUMBER and DO NOT leave blank:");
 }
 
+//Creating a funcation for the money you have to spend minus the amount of money of the game to get how much money you have left over
+
+function amountLeft(money, gAmount){
+	//creating a var for the math
+	var leftOver = money - gAmount;
+	return leftOver;
+}
+
+var results = amountLeft(moneyToSpend, amountOfGame);
+console.log("The amount of money you have left is " + results);
 
 
 
