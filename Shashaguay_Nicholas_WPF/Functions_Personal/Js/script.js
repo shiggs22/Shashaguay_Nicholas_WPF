@@ -24,3 +24,11 @@ while(isNaN(moneyToSpend) || moneyToSpend === ""){
 	//re-prompting the user if they didn't use a number or just left the prompt blank
 	moneyToSpend = prompt("Please put in a NUMBER and DO NOT leave blank:");
 }
+
+//Creating a variable/prompt for the amount of money the game(s) is
+
+var amountOfGame = prompt("Please put the amount of money the game(s) that you wish to purchase:");
+
+//Logging in the amount with a console.log to make sure it was recorded
+
+console.log(amountOfGame); 
