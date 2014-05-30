@@ -32,3 +32,15 @@ var amountOfGame = prompt("Please put the amount of money the game(s) that you w
 //Logging in the amount with a console.log to make sure it was recorded
 
 console.log(amountOfGame); 
+
+//Making sure the user is using numbers and not words or leaving the prompt blank
+
+while(isNaN(amountOfGame) || amountOfGame === ""){
+	
+	//re-prompting the user if they didn't use a number or just left the prompt blank
+	amountOfGame = prompt("Please put in a NUMBER and DO NOT leave blank:");
+}
+
+
+
+
