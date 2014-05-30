@@ -26,5 +26,14 @@ while(isNaN(womenInGym) || womenInGym === ""){
 	womenInGym = prompt("Please put in a NUMBER and DO NOT leave blank:");
 }
 
+//Creating a function to add the number of people in the gym
+function peopleInGym(men, women){
+	//var for the math
+	var people = Number(men) + Number(women);
+	return people;
+}
 
+//Creating var for the result
+var result = peopleInGym(menInGym, womenInGym);
+console.log("There are " + result  + " people in the gym");
 
