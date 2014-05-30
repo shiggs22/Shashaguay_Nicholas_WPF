@@ -14,3 +14,17 @@ while(isNaN(menInGym) || menInGym === ""){
 	//re-prompting the user if they didn't use a number or just left the prompt blank
 	menInGym = prompt("Please put in a NUMBER and DO NOT leave blank:");
 }
+
+//Creating a prompt for how many women are in the gym
+var womenInGym = prompt("How many women are in the gym?:");
+//console.log to make sure the number records
+console.log(womenInGym);
+
+while(isNaN(womenInGym) || womenInGym === ""){
+	
+	//re-prompting the user if they didn't use a number or just left the prompt blank
+	womenInGym = prompt("Please put in a NUMBER and DO NOT leave blank:");
+}
+
+
+
