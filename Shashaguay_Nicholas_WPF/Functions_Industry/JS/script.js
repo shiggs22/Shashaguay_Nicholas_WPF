@@ -41,3 +41,13 @@ while(isNaN(javaScript) || javaScript === ""){
 	//re-prompting the user if they didn't use a number or just left the prompt blank
 	javaScript = prompt("Please put in a NUMBER and DO NOT leave blank:");
 }
+
+//Creating a function to add up all the prices together
+
+function amountAllTogether(page, design, java){
+	//creating var for the math
+	var amountAdded = Number(page) + Number(design) + Number(java);
+	return amountAdded;
+}
+var results = amountAllTogether(pageAmount, pageDesign, javaScript);
+console.log("This is how much you charge for creating a website " + results);
