@@ -37,3 +37,15 @@ function peopleInGym(men, women){
 var result = peopleInGym(menInGym, womenInGym);
 console.log("There are " + result  + " people in the gym");
 
+
+//Creating a if, else if, and else Q&A 
+if(womenInGym > 1){
+	console.log("Will you become stronger?");
+}
+else if(menInGym > womenInGym){
+	console.log("Will you become weaker?");
+}else{
+	console.log("Will you just be take it easy if you're in there by yourself?");
+}
+
+
